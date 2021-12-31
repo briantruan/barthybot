@@ -6,10 +6,11 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import java.util.Random;
 
 public class ThoughtsCommand extends ListenerAdapter {
+    private final int MAX_CASES = 8;
+
     @Override
     public void onSlashCommand(SlashCommandEvent event) {
         if (event.getName().equalsIgnoreCase("thoughts")) {
-            final int MAX_CASES = 8;
             int indexOfThought = getRandomInt(0, MAX_CASES);
             String thought = getThought(indexOfThought);
             event.reply(thought).queue();
@@ -17,7 +18,7 @@ public class ThoughtsCommand extends ListenerAdapter {
     }
 
     private String getThought(int index) {
-        assert (0 <= index && index <= 8);
+        assert (0 <= index && index <= MAX_CASES);
         switch (index) {
             case 0:
                 return "real";
