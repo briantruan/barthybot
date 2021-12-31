@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'io.github.rentedpanda'
-version '1.0-SNAPSHOT'
+version '1.1'
 
 mainClassName = "io.github.rentedpanda.barthybot.Barthybot"
 def jdaVersion = "5.0.0-alpha.3"
