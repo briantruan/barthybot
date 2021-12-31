@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="832e5bb3-d746-4823-933c-93bd891be478" name="Changes" comment="add system.properties">
+    <list default="true" id="832e5bb3-d746-4823-933c-93bd891be478" name="Changes" comment="relocate system.properties">
+      <change afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/rentedpanda/barthybot/Barthybot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/rentedpanda/barthybot/Barthybot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/rentedpanda/barthybot/commands/ThoughtsCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/io/github/rentedpanda/barthybot/commands/ThoughtsCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/barthybot-1.0-SNAPSHOT-all.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/barthybot-1.0-SNAPSHOT-all.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/ThoughtsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/ThoughtsCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,15 +84,19 @@
     <allAvailableExecutables />
   </component>
   <component name="ProjectId" id="231f7hkZIwqnmDwsNsqIiXdIZZ3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunManager" selected="Gradle.barthybot [shadowJar]">
     <configuration name="barthybot [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -164,7 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640906347626</updated>
       <workItem from="1640906349702" duration="5346000" />
-      <workItem from="1640914753418" duration="2709000" />
+      <workItem from="1640914753418" duration="3673000" />
     </task>
     <task id="LOCAL-00001" summary="add system.properties">
       <created>1640916181006</created>
@@ -173,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640916181006</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="relocate system.properties">
+      <created>1640918062225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640918062225</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +213,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add system.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="add system.properties" />
+    <MESSAGE value="relocate system.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="relocate system.properties" />
   </component>
 </project>

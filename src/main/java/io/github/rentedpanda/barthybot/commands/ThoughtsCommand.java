@@ -9,7 +9,7 @@ public class ThoughtsCommand extends ListenerAdapter {
     @Override
     public void onSlashCommand(SlashCommandEvent event) {
         if (event.getName().equalsIgnoreCase("thoughts")) {
-            final int MAX_CASES = 7;
+            final int MAX_CASES = 8;
             int indexOfThought = getRandomInt(0, MAX_CASES);
             String thought = getThought(indexOfThought);
             event.reply(thought).queue();
@@ -17,22 +17,31 @@ public class ThoughtsCommand extends ListenerAdapter {
     }
 
     private String getThought(int index) {
-        assert(0 <= index && index <= 7);
-        return switch (index) {
-            case 0 -> "real.";
-            case 1 -> "pain.";
-            case 2 -> "balls.";
-            case 3 -> "balls in my face.";
-            case 4 -> "not right.";
-            case 5 -> "isn't that special?";
-            case 6 -> "SQUID GAME";
-            case 7 -> "ey. ey. ey.";
-            default -> "nein.";
-        };
+        assert (0 <= index && index <= 8);
+        switch (index) {
+            case 0:
+                return "real";
+            case 1:
+                return "pain.";
+            case 2:
+                return "balls.";
+            case 3:
+                return "balls in my face.";
+            case 4:
+                return "not right.";
+            case 5:
+                return "isn't that special?";
+            case 6:
+                return "SQUID GAME";
+            case 7:
+                return "ey. ey. ey.";
+            default:
+                return "nein.";
+        }
     }
 
     private int getRandomInt(int min, int max) {
-        assert(min < max);
+        assert (min < max);
         Random random = new Random();
         return random.nextInt(max - min) + min;
     }
