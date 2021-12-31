@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="832e5bb3-d746-4823-933c-93bd891be478" name="Changes" comment="add system.properties" />
+    <list default="true" id="832e5bb3-d746-4823-933c-93bd891be478" name="Changes" comment="add system.properties">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640906347626</updated>
       <workItem from="1640906349702" duration="5346000" />
-      <workItem from="1640914753418" duration="1714000" />
+      <workItem from="1640914753418" duration="2709000" />
     </task>
     <task id="LOCAL-00001" summary="add system.properties">
       <created>1640916181006</created>
