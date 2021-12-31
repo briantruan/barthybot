@@ -19,26 +19,17 @@ public class ThoughtsCommand extends ListenerAdapter {
 
     private String getThought(int index) {
         assert (0 <= index && index <= MAX_CASES);
-        switch (index) {
-            case 0:
-                return "real";
-            case 1:
-                return "pain.";
-            case 2:
-                return "balls.";
-            case 3:
-                return "balls in my face.";
-            case 4:
-                return "not right.";
-            case 5:
-                return "isn't that special?";
-            case 6:
-                return "SQUID GAME";
-            case 7:
-                return "ey. ey. ey.";
-            default:
-                return "nein.";
-        }
+        return switch (index) {
+            case 0 -> "real";
+            case 1 -> "pain.";
+            case 2 -> "balls.";
+            case 3 -> "balls in my face.";
+            case 4 -> "not right.";
+            case 5 -> "isn't that special?";
+            case 6 -> "SQUID GAME";
+            case 7 -> "ey. ey. ey.";
+            default -> "nein.";
+        };
     }
 
     private int getRandomInt(int min, int max) {
