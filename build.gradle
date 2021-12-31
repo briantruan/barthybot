@@ -9,6 +9,7 @@ version '1.0-SNAPSHOT'
 
 mainClassName = "io.github.rentedpanda.barthybot.Barthybot"
 def jdaVersion = "5.0.0-alpha.3"
+def gsonVersion = "2.8.9"
 
 repositories {
     mavenCentral()
@@ -22,6 +23,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
     implementation("net.dv8tion:JDA:$jdaVersion")
     implementation('ch.qos.logback:logback-classic:1.2.10')
+    implementation("com.google.code.gson:gson:$gsonVersion")
 }
 
 test {
@@ -31,7 +33,7 @@ test {
 jar {
     manifest {
         attributes(
-                'Main-Class': 'io.github.rentedpanda.barthybot.Barthybot'
+                'Main-Class': "$mainClassName"
         )
     }
 }
