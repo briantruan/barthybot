@@ -64,10 +64,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="KotlinMultiplatform">
     <allAvailableExecutables />
   </component>
   <component name="ProjectId" id="231f7hkZIwqnmDwsNsqIiXdIZZ3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -158,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640906347626</updated>
       <workItem from="1640906349702" duration="5346000" />
-      <workItem from="1640914753418" duration="800000" />
+      <workItem from="1640914753418" duration="1153000" />
     </task>
     <servers />
   </component>
