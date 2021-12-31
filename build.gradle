@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'application'
+    id "com.github.johnrengelman.shadow" version "7.1.2"
+}
+
+group 'io.github.rentedpanda'
+version '1.0-SNAPSHOT'
+
+mainClassName = "io.github.rentedpanda.barthybot.Barthybot"
+def jdaVersion = "5.0.0-alpha.3"
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://m2.dv8tion.net/releases'
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    implementation("net.dv8tion:JDA:$jdaVersion")
+    implementation('ch.qos.logback:logback-classic:1.2.10')
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'io.github.rentedpanda.barthybot.Barthybot'
+        )
+    }
+}
+
+compileJava.options.encoding = 'UTF-8'
