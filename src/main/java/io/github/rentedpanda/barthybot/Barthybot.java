@@ -11,7 +11,7 @@ import javax.security.auth.login.LoginException;
 import java.util.Collections;
 
 public class Barthybot {
-    private static final String BOT_TOKEN = "OTI2MjMxMzQ4NDgwNDQyMzk4.Yc4qKg.mAVMYeopepV259U2e-yun1pn7jk";
+    private static final String BOT_TOKEN = System.getenv("BARTHYBOT_TOKEN");
 
     public static void main(String[] arguments) throws LoginException {
         JDA api = JDABuilder.createLight(BOT_TOKEN, Collections.emptyList())
