@@ -2,7 +2,7 @@
 
 ### Latest update: v1.1
 
-- Enhanced switch uses Java 17 syntax
+- Remove switch in favor of persistence (json)
 
 ### What is barthybot?
 
@@ -18,7 +18,6 @@ Branch from **master** and submit a pull request.
 
 ### Todo
 
-- [x] Remove switch in favor of persistence (json)
 - [ ] Use JDA RestAction `#queueAfter()` to automate Barthy
 - [ ] `/meme` - Send memes that Barthy approves
 - [ ] `/squidward` - Squidward
