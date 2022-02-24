@@ -1,2 +1,2 @@
-worker: java -jar barthybot-1.1-all.jar
+worker: java -jar barthybot-2.0-all.jar
 
