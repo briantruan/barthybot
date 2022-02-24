@@ -19,9 +19,11 @@ Branch from **master** and submit a pull request.
 
 Make sure to:
 
-1. Update the Procfile with appropriate version number.
-2. Do not upload the bot token; use environment variables.
-3. Make clear in your PR what you're adding.
+1. **DO NOT WORK/COMMIT DIRECTLY ON THE MASTER BRANCH!**
+2. **DO NOT COMMIT YOUR DISCORD BOT TOKEN!** (Discord will automatically deactivate the token.)
+3. Update the Procfile with appropriate version number.
+4. Do not upload the bot token; use environment variables.
+5. Make clear in your PR what you're adding.
 
 ### Todo
 
