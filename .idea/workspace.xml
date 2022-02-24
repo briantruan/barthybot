@@ -5,10 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="832e5bb3-d746-4823-933c-93bd891be478" name="Changes" comment="forgot to commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/MemeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/SquidwardCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/HeHeHeHawCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/memes/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/memes/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/memes/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/memes/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/memes/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/rentedpanda/barthybot/Barthybot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/rentedpanda/barthybot/commands/BoomCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/rentedpanda/barthybot/commands/RealCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/io/github/rentedpanda/barthybot/commands/ThoughtsCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/barthybot-1.1-all.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/thoughts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/Barthybot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/Barthybot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/BoomCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/BoomCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/MemeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/MemeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/RealCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/RealCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/SquidwardCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/SquidwardCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/ThoughtsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/commands/ThoughtsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thoughts.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/thoughts.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +91,16 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="thought-json" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KotlinMultiplatform">
     <allAvailableExecutables />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="qxmu7lkd" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -86,11 +119,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.github.rentedpanda.barthybot.commands" />
+    </key>
   </component>
   <component name="RunManager" selected="Gradle.barthybot [shadowJar]">
     <configuration name="barthybot [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -159,8 +198,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.barthybot [shadowJar]" />
-        <item itemvalue="Gradle.barthybot [jar]" />
         <item itemvalue="Gradle.barthybot [clean]" />
+        <item itemvalue="Gradle.barthybot [jar]" />
         <item itemvalue="Gradle.barthybot [shadowJar]" />
         <item itemvalue="Gradle.barthybot [clean]" />
       </list>
@@ -181,6 +220,11 @@
       <workItem from="1640967297270" duration="43000" />
       <workItem from="1640967353721" duration="1775000" />
       <workItem from="1640969238216" duration="384000" />
+      <workItem from="1641261951869" duration="2000" />
+      <workItem from="1641686887565" duration="3277000" />
+      <workItem from="1642205893183" duration="5561000" />
+      <workItem from="1645645325025" duration="3128000" />
+      <workItem from="1645676399341" duration="693000" />
     </task>
     <task id="LOCAL-00001" summary="add system.properties">
       <created>1640916181006</created>

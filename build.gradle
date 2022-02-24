@@ -5,11 +5,11 @@ plugins {
 }
 
 group 'io.github.rentedpanda'
-version '1.1'
+version '2.0'
 
 mainClassName = "io.github.rentedpanda.barthybot.Barthybot"
-def jdaVersion = "5.0.0-alpha.3"
-def gsonVersion = "2.8.9"
+def jdaVersion = "5.0.0-alpha.8"
+def gsonVersion = "2.9.0"
 
 repositories {
     mavenCentral()
