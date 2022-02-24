@@ -9,9 +9,7 @@ import javax.security.auth.login.LoginException;
 import java.util.Collections;
 
 public class Barthybot {
-    private static final String BOT_TOKEN =
-//            System.getenv("BARTHYBOT_TOKEN");
-    "OTI2NTU0MzI2Mzg0NjY0NjU3.Yc9W9Q.ofCG7skqEvr_oUHijfnHPCQ_y8U";
+    private static final String BOT_TOKEN = System.getenv("BARTHYBOT_TOKEN");
 
     public static void main(String[] arguments) throws LoginException {
         JDA api = JDABuilder.createLight(BOT_TOKEN, Collections.emptyList())
