@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="832e5bb3-d746-4823-933c-93bd891be478" name="Changes" comment="version 2.0 - this adds new commands and updates to the latest JDA API">
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/Barthybot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/rentedpanda/barthybot/Barthybot.java" afterDir="false" />
-    </list>
+    <list default="true" id="832e5bb3-d746-4823-933c-93bd891be478" name="Changes" comment="forgot to update Procfile" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +195,7 @@
       <workItem from="1641686887565" duration="3277000" />
       <workItem from="1642205893183" duration="5561000" />
       <workItem from="1645645325025" duration="3128000" />
-      <workItem from="1645676399341" duration="1047000" />
+      <workItem from="1645676399341" duration="1354000" />
     </task>
     <task id="LOCAL-00001" summary="add system.properties">
       <created>1640916181006</created>
@@ -234,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645679712403</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="version 2.0 - this adds new commands and updates to the latest JDA API">
+      <created>1645679865597</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645679865597</updated>
+    </task>
+    <task id="LOCAL-00007" summary="forgot to update Procfile">
+      <created>1645679919512</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645679919512</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +270,7 @@
     <MESSAGE value="version 1.1 - adds persistence" />
     <MESSAGE value="forgot to commit" />
     <MESSAGE value="version 2.0 - this adds new commands and updates to the latest JDA API" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2.0 - this adds new commands and updates to the latest JDA API" />
+    <MESSAGE value="forgot to update Procfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgot to update Procfile" />
   </component>
 </project>
