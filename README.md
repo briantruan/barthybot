@@ -1,8 +1,9 @@
 # barthybot
 
-### Latest update: v2.0
+### Latest update: v2.1
 
 - Add `/meme`, `/hehehehaw`, and `/squiward` commands
+- Fix bot login after breaking JDA API update to `5.0.0-alpha.8`
 
 ### What is barthybot?
 
@@ -26,5 +27,6 @@ Make sure to:
 
 - [ ] Use JDA RestAction `#queueAfter()` to automate Barthy
 - [x] `/meme` - Send memes that Barthy approves
+- [ ] `/meme` has hardcoded code that needs to be dynamic
 - [x] `/squidward` - Squidward
 - [ ] **(Separate project)** Music player
