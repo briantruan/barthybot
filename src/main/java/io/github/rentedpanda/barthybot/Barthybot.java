@@ -6,13 +6,12 @@ import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
 
 import javax.security.auth.login.LoginException;
-import java.util.Collections;
 
 public class Barthybot {
     private static final String BOT_TOKEN = System.getenv("BARTHYBOT_TOKEN");
 
     public static void main(String[] arguments) throws LoginException {
-        JDA api = JDABuilder.createLight(BOT_TOKEN, Collections.emptyList())
+        JDA api = JDABuilder.createDefault(BOT_TOKEN)
                 .addEventListeners(new BoomCommand())
                 .addEventListeners(new HeHeHeHawCommand())
                 .addEventListeners(new MemeCommand())
