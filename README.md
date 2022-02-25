@@ -19,7 +19,7 @@ Branch from **master** and submit a pull request.
 
 Make sure to:
 
-1. **DO NOT WORK/COMMIT DIRECTLY ON THE MASTER BRANCH!**
+1. **DO NOT WORK/COMMIT DIRECTLY ON THE MASTER BRANCH!** Checkout, make a local branch, create a PR.
 2. **DO NOT COMMIT YOUR DISCORD BOT TOKEN!** (Discord will automatically deactivate the token.)
 3. Update the Procfile with appropriate version number.
 4. Do not upload the bot token; use environment variables.
@@ -28,7 +28,8 @@ Make sure to:
 ### Todo
 
 - [ ] Use JDA RestAction `#queueAfter()` to automate Barthy
-- [x] `/meme` - Send memes that Barthy approves
+- [ ] Similar project, create a `/busjump` command that will automate Shivani's "don't jump out of commuter north" notifs at a specific time
+- [ ] ^ create a solid util for task schedulers (kotlin?)
+- [ ] `/sudo` allow users with specific permissions to sudo barthy's speech
 - [ ] `/meme` has hardcoded code that needs to be dynamic
-- [x] `/squidward` - Squidward
 - [ ] **(Separate project)** Music player
